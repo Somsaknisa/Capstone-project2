@@ -7,12 +7,11 @@ body {
     margin: 20px;
     justify-content: center;
 }
-.nav {
+.nav-content {
     margin: 0;
     padding: 0px;
 }
-
-.nav li {
+.nav-content > li {
     display: inline-block;
     font-size: 18px;
     margin: 10px; 
@@ -48,7 +47,7 @@ h2 {
     margin: 32px 0px;
     align-items: center;
 }
-.footer-img {
+.section-footer-img {
     max-width: 650px;
 }
 a.text-center {
@@ -68,7 +67,6 @@ a.text-center {
     min-width: 200px;
     text-align: center;
     padding: 12px;
-    flex: 1;
 }
 .about-me-title {
     font-weight: bold;
@@ -95,9 +93,9 @@ a.text-center {
     max-width: 15%;
     text-align: center;
     padding: 60px 25px;
-    flex: 1;
     border: 1px solid darkblue;
     border-radius: 15px;
+    flex: 1;
 }
 .skill-title {
     font-weight: bold;
@@ -105,7 +103,6 @@ a.text-center {
     margin: 15px 0px;
     border: 1px solid;
 }
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -150,7 +147,7 @@ ul {
 }
 
 /*Contact me*/
-.BG-color {
+.bg-color {
     background-color: darkblue;
     padding: 0;
     margin: 0;
@@ -189,5 +186,23 @@ ul {
 .img-size:hover {
     height: 350px;
     width: 100%;
+}
+}
+@media (max-width: 768px) {
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.skill-box {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    padding: 60px 25px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    flex: 1;
 }
 }
