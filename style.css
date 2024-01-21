@@ -169,6 +169,10 @@ ul {
     padding: 20px;
 }
 
+.btt-btn {
+    display: flex;
+    justify-content: flex-end;
+}
 @media (max-width: 1200px) {
 
 .recent-container {
