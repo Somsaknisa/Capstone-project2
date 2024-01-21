@@ -124,7 +124,7 @@ ul {
     padding-bottom: 50px;
 }
 .recent-box {
-    display: inline;
+    display: inline-block;
     max-width: 500px;
     min-width: 200px;
 }
