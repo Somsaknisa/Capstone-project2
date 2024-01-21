@@ -65,7 +65,7 @@ a.text-center {
 }
 .about-me-box {
     max-width: 35%;
-    min-width: 400px;
+    min-width: 200px;
     text-align: center;
     padding: 12px;
     flex: 1;
@@ -126,7 +126,7 @@ ul {
 .recent-box {
     display: inline;
     max-width: 500px;
-    min-width: 400px;
+    min-width: 200px;
 }
 .recent-title {
     font-weight: bold;
