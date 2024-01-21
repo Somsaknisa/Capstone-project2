@@ -17,7 +17,7 @@ body {
     margin: 10px; 
     font-family: Arial, Helvetica, sans-serif;
 }
-a {
+.nav-content a {
     text-decoration: none;
     color: black;
 }
